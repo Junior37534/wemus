@@ -5,7 +5,7 @@ Este documento contém informações sobre as versões do Wemus, incluindo corre
 Caso encontre algum erro, entre em contato conosco através das opções de contato encontradas na página de informações do Wemus. [Ver informações sobre o Wemus e contato](#).
 
 
-## Versão 4.0
+## Versão 5.0
 
 - Correção de bugs.
 - Melhoria na estabilidade do Wemus.
@@ -15,6 +15,13 @@ Caso encontre algum erro, entre em contato conosco através das opções de cont
 - Inteligência do dispositivo melhorada.
 - Agora é possível configurar a qualquer momento apenas acessando o IP no navegador.
 - Outras melhorias e otimizações.
+
+## Versão 4.0
+
+- Funções melhoradas.
+- Correção de bugs.
+- Estabilidade melhorada.
+- Introdução de novas funcionalidades.
 
 ## Versão 3.0
 
