@@ -43,6 +43,9 @@ Caso encontre algum erro, entre em contato conosco através das opções de cont
 
 ## Versão 1.0 - 24/12/2023
 
--Adicionado fontes personalizadas.
+- Correção de bugs.
+- Introdução de novos modos.
+- Interface aprimorada.
+- Adicionado fontes personalizadas.
 - Adicionado horário de 12 horas
 - Correção de bugs.
