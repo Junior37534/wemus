@@ -9,12 +9,12 @@ Caso encontre algum erro, entre em contato conosco através das opções de cont
 
 - Correção de bugs.
 - Melhoria na estabilidade do Wemus.
-- Introdução de novas funções.
-- Novo método de configuração via Webserver. Não é mais necessário usar o APP antigo.
+- Novo método de configuração via Webserver.
 - Segurança aprimorada.
 - Inteligência do dispositivo melhorada.
 - Agora é possível configurar a qualquer momento apenas acessando o IP no navegador.
 - Outras melhorias e otimizações.
+- [REMOVIDO] - Necessidade de utilizar o APP (android) do Wemus
 
 ## Versão 4.0
 
@@ -23,18 +23,26 @@ Caso encontre algum erro, entre em contato conosco através das opções de cont
 - Estabilidade melhorada.
 - Introdução de novas funcionalidades.
 
-## Versão 3.0
+## Versão 3.0 - 27/04/2024
 
-- Novas ou funções melhoradas.
 - Correção de bugs.
 - Estabilidade melhorada.
+- Atualização de Firmware OTA.
+- Otimizações e melhorias.
+- fontes aprimoradas.
 
-## Versão 2.0
+## Versão 2.0 - 04/04/2024
 
+- Checagem de atualização aprimorada.
 - Correção de bugs.
 - Melhoria na estabilidade do Wemus.
-- Introdução de novas funcionalidades.
+- Mudanças no fuso horário.
+- Horário de verão automático.
+- Modo noturno.
+- Adicionado opção para desabilitar o indicador de atualização na tela do Wemus.
 
-## Versão 1.0
+## Versão 1.0 - 24/12/2023
 
+-Adicionado fontes personalizadas.
+- Adicionado horário de 12 horas
 - Correção de bugs.
