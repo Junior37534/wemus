@@ -2,7 +2,7 @@
 
 Este documento contém informações sobre as versões do Wemus, incluindo correções de bugs, melhorias e novas funcionalidades.
 
-Caso encontre algum erro, entre em contato conosco através das opções de contato encontradas na página de informações do Wemus. [Ver informações sobre o Wemus e contato](#).
+Caso encontre algum erro, entre em contato conosco através das opções de contato encontradas na página de informações do Wemus. [wemus.dev@gmail.com](#).
 
 
 ## Versão 5.0
