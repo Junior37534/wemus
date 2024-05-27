@@ -4,21 +4,25 @@ Este documento contém informações sobre as versões do Wemus, incluindo corre
 
 Caso encontre algum erro, entre em contato conosco através das opções de contato encontradas na página de informações do Wemus. 
 
-E-mail: [wemus.dev@gmail.com](mailto:wemus.dev@gmail.com?subject=Help%20with%20Wemus).\n
+E-mail: [wemus.dev@gmail.com](mailto:wemus.dev@gmail.com?subject=Help%20with%20Wemus)
 Discord: [DevMus](https://discord.com/users/692385957592432691)
 Instagram: [Wemus_Store](https://www.instagram.com/wemus_store)
 
+## Versão 6.0 - 27/05/2024
 
-## Versão 5.0 25/05/2024
+- Otimizações e melhorias.
+- Correções de bugs relacionado modo de Desligamento automático.
+  
+## Versão 5.0 - 25/05/2024
 
 - Correção de bugs.
 - Melhoria na estabilidade do Wemus.
-- Novo método de configuração via Webserver.
+- Novo método de configuração via WebServer.
 - Segurança aprimorada.
 - Inteligência do dispositivo melhorada.
 - Agora é possível configurar a qualquer momento apenas acessando o IP no navegador.
 - Outras melhorias e otimizações.
-- [REMOVIDO] - Necessidade de utilizar o APP (android) do Wemus
+- [REMOVIDO] - Necessidade de utilizar o APP (android) do Wemus.
 
 ## Versão 4.0 - ??/05/2024
 
