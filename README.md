@@ -2,10 +2,13 @@
 
 Este documento contém informações sobre as versões do Wemus, incluindo correções de bugs, melhorias e novas funcionalidades.
 
-Caso encontre algum erro, entre em contato conosco através das opções de contato encontradas na página de informações do Wemus. [wemus.dev@gmail.com](#).
+Caso encontre algum erro, entre em contato conosco através das opções de contato encontradas na página de informações do Wemus. 
+
+E-mail: [wemus.dev@gmail.com](#).
+Discord: [DevMus](#)
 
 
-## Versão 5.0
+## Versão 5.0 25/05/2024
 
 - Correção de bugs.
 - Melhoria na estabilidade do Wemus.
@@ -16,7 +19,7 @@ Caso encontre algum erro, entre em contato conosco através das opções de cont
 - Outras melhorias e otimizações.
 - [REMOVIDO] - Necessidade de utilizar o APP (android) do Wemus
 
-## Versão 4.0
+## Versão 4.0 --/05/2024
 
 - Funções melhoradas.
 - Correção de bugs.
