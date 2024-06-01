@@ -8,6 +8,14 @@ E-mail: [wemus.dev@gmail.com](mailto:wemus.dev@gmail.com?subject=Help%20with%20W
 Discord: [DevMus](https://discord.com/users/692385957592432691)
 Instagram: [Wemus_Store](https://www.instagram.com/wemus_store)
 
+## Versão 7.0 - 01/06/2024
+
+- Correção de bugs:
+  - Entrar em sleep sozinho (sem configurar).
+  - Não fazer request na API de clima.
+- Sistema otimizado.
+
+  
 ## Versão 6.0 - 27/05/2024
 
 - Otimizações e melhorias.
