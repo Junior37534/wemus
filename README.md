@@ -1,8 +1,8 @@
-# Wemus - Changelog
+# Wemus Pro - Changelog
 
-Este documento contém informações sobre as versões do Wemus, incluindo correções de bugs, melhorias e novas funcionalidades.
+Este documento contém informações sobre as versões do Wemus Pro, incluindo correções de bugs, melhorias e novas funcionalidades.
 
-Caso encontre algum erro, entre em contato conosco através das opções de contato encontradas na página de informações do Wemus. 
+Caso encontre algum erro, entre em contato conosco através das opções de contato encontradas na página de informações do Wemus Pro. 
 
 E-mail: [wemus.dev@gmail.com](mailto:wemus.dev@gmail.com?subject=Help%20with%20Wemus)
 Discord: [DevMus](https://discord.com/users/692385957592432691)
