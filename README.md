@@ -1,4 +1,6 @@
-# Wemus Pro - Changelog
+# <span style="color:red">!! Discontinuado !!</span>
+
+## Wemus Pro - Changelog
 
 Este documento contém informações sobre as versões do Wemus Pro, incluindo correções de bugs, melhorias e novas funcionalidades.
 
@@ -6,7 +8,15 @@ Caso encontre algum erro, entre em contato conosco através das opções de cont
 
 E-mail: [wemus.dev@gmail.com](mailto:wemus.dev@gmail.com?subject=Help%20with%20Wemus)
 Discord: [DevMus](https://discord.com/users/692385957592432691)
-Instagram: [Wemus_Store](https://www.instagram.com/wemus_store)
+Instagram: [Wemus_Store](https://www.instagram.com/wemus.dev)
+
+## Versão 8.0 [FINAL] - 18/06/2024
+
+- WebServer otimizado e melhorado.
+- Sistema otimizado.
+- Estabilidade melhorada.
+- Correções de pequenos bugs
+- Encerramento das atualizações.
 
 ## Versão 7.0 - 01/06/2024
 
@@ -15,7 +25,6 @@ Instagram: [Wemus_Store](https://www.instagram.com/wemus_store)
   - Não fazer request na API de clima.
 - Sistema otimizado.
 
-  
 ## Versão 6.0 - 27/05/2024
 
 - Otimizações e melhorias.
