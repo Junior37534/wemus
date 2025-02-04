@@ -30,7 +30,7 @@ O Wemus Pro é um projeto DIY (Do It Yourself) que utiliza um display OLED 128x6
 
 - Computador com Windows, macOS ou Linux
 - Cabo USB para programação
-- Software para corte a laser (para fazer o case)
+- Maquina de corte a laser (opcional)
 - Chave de fenda pequena
 - Solda e ferro de soldar (básico)
 
@@ -38,13 +38,15 @@ O Wemus Pro é um projeto DIY (Do It Yourself) que utiliza um display OLED 128x6
 
 - 1x Wemos D1 Mini
 - 1x Display OLED 128x64 I2C
-- 4x Parafusos M2 (para fixação)
+- 1x Push botão de 12mm
+- 6x Fios Jumpers (4x para ligar o display no Wemos e 2x para o botão)
+- 1x plca MDF
 - Fios para conexão
 - Material para o case (acrílico ou MDF 3mm recomendado)
 
 ## 📥 Instalação do Firmware
 
-1. Baixe o arquivo .bin mais recente da [seção de releases](https://github.com/seu-usuario/wemus-pro/releases)
+1. Baixe o arquivo .bin mais recente da [seção de releases](https://github.com/seu-usuario/Junior37534/releases)
 2. Para fazer o flash do firmware, você pode usar:
    - [ESPHome Flasher](https://github.com/esphome/esphome-flasher/releases) (Recomendado para iniciantes)
    - [ESP Flash Download Tool](https://www.espressif.com/en/support/download/other-tools)
@@ -81,9 +83,7 @@ O case foi projetado para ser cortado a laser em material de 3mm (acrílico ou M
 
 ### Arquivos para Corte
 
-- [case_tampa.svg](/files/case_tampa.svg) - Tampa superior
-- [case_base.svg](/files/case_base.svg) - Base inferior
-- [case_lateral.svg](/files/case_lateral.svg) - Laterais
+- [soon](/files/case_tampa.svg) - Tampa superior
 
 ### Dicas para o Corte
 
@@ -116,16 +116,6 @@ Com todas as peças em mãos, cerca de 30-60 minutos.
 - Verifique se o driver USB está instalado
 - Tente outro cabo USB
 - Pressione o botão reset durante o processo
-
-## 🤝 Contribuição
-
-Contribuições são sempre bem-vindas! Por favor, leia as [diretrizes de contribuição](CONTRIBUTING.md) primeiro.
-
-1. Faça um Fork do projeto
-2. Crie sua Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a Branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
 
 ## 📄 Licença
 
