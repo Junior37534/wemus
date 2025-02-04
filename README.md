@@ -63,12 +63,15 @@ O Wemus Pro é um projeto DIY (Do It Yourself) que utiliza um display OLED 128x6
 
 ### Conexões do Display
 
-| Display OLED | Wemos D1 Mini |
-|-------------|---------------|
-| VCC         | 3.3V         |
-| GND         | G (GND)      |
-| SCL         | D1           |
-| SDA         | D2           |
+| Display OLED  |Wemos D1 Mini |
+|---------------|--------------|
+| RST           |       D0     |
+| BUTTON1       |       D8     |
+| BUTTON2       |       D3     |
+| SDA           |       D2     |
+| SLC           |       D1     |
+| VCC           |       5V     |
+| GND           |       GND    |
 
 ### Dicas de Montagem
 
