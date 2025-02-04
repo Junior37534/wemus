@@ -1,6 +1,6 @@
 # Wemus Pro
 
-![Wemus Pro](https://raw.githubusercontent.com/seu-usuario/wemus-pro/main/images/wemus-pro.jpg)
+![Wemus Pro](https://media.discordapp.net/attachments/1334952524570038284/1336460345623056466/IMG_3775.jpeg?ex=67a3e330&is=67a291b0&hm=7e5159a1bfc85dc614bba14bc8388ac06f84e598edea4b49344fa590f63c7048&=&format=webp&width=895&height=671)
 
 Wemus Pro is a DIY (Do It Yourself) project that uses a 128x64 OLED display with a Wemos D1 Mini, creating a versatile and customizable interface for various projects.
 
