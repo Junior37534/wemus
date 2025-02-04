@@ -53,14 +53,14 @@ O Wemus Pro é um projeto DIY (Do It Yourself) que utiliza um display OLED 128x6
   <tr>
     <td align="center">
       <a href="https://pt.aliexpress.com/item/32726768571.html">
-        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S422c5543f861406897e211457b1d3517R.jpg_960x960q75.jpg" width="200" alt="Push Button 12mm"/><br>
+        <img src="https://ae-pic-a1.aliexpress-media.com/kf/HTB1e0fNkvBNTKJjSszeq6Au2VXan.jpg_960x960q75.jpg" width="200" alt="Push Button 12mm"/><br>
         <b>Push Button 12mm</b>
       </a>
     </td>
     <td align="center">
       <a href="https://www.aliexpress.com/item/32825083543.html">
-        <img src="https://ae-pic-a1.aliexpress-media.com/kf/HTB1e0fNkvBNTKJjSszeq6Au2VXan.jpg_960x960q75.jpg" width="200" alt="Fios Jumpers"/><br>
-        <b>Fios Jumpers (6 unidades)</b>
+        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S422c5543f861406897e211457b1d3517R.jpg_960x960q75.jpg" width="200" alt="Fios Jumpers"/><br>
+        <b>Fios Jumpers</b>
       </a>
     </td>
   </tr>
