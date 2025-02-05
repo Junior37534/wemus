@@ -23,12 +23,15 @@ Wemus Pro is a DIY project for a minimalist and modern little clock, designed to
 - Low power consumption
 - Wi-Fi connectivity
 
-## 📝 Requirements
+## 📝 Requirements  
 
-- Computer with Windows, macOS or Linux
-- Laser cutting machine (optional)
-- Super glue
-- Soldering iron and solder (basic)
+To assemble and use **Wemus Pro**, you’ll need:  
+
+- A computer with **Windows, macOS, or Linux**  
+- A **laser cutting machine** (to make the case)  
+- **Super glue** (for assembling the case)  
+- A **soldering iron and solder** (basic soldering required)  
+- A **basic understanding of electronics** (flashing firmware, soldering, and assembly)  
 
 ## 🛠 Required Hardware
 
@@ -63,43 +66,57 @@ Wemus Pro is a DIY project for a minimalist and modern little clock, designed to
   </tr>
 </table>
 
-- 1x [Wemos D1 Mini]
-- 1x [SSD1306 I2C 128x64]
-- 1x 12mm Push button
-- 6x Jumper wires (4x for connecting the display to Wemos and 2x for the button)
-- 1x MDF board
-- Connection wires
-- Case material (3mm acrylic or MDF recommended)
+- **1x Wemos D1 Mini**  
+- **1x SSD1306 I2C 128x64 OLED display**  
+- **1x 12mm push button**  
+- **7x Jumper wires**  
+  - **4x** for connecting the display  
+  - **2x** for the button  
+  - **1x** for connecting **D0 to RST** (required for sleep mode)  
+- **1x MDF board (HDF also works, untested with acrylic)**  
+- **Connection wires**  
+- **Case material** (Recommended: **3mm MDF or HDF**, acrylic not tested)  
 
 ## 📥 Firmware Installation
 
-1. Download the latest .bin file from the [releases section](https://github.com/seu-usuario/Junior37534/releases)
-2. To flash the firmware, you can use:
-   - [ESPHome Flasher](https://github.com/esphome/esphome-flasher/releases) (Recommended for beginners)
-   - [ESP Flash Download Tool](https://www.espressif.com/en/support/download/other-tools)
+## 1. Download the Firmware  
+Download the latest firmware:  
+[➡️ wemus_os.ino.bin](https://github.com/Junior37534/wemus/blob/main/firmware/wemus_os.ino.bin)  
 
-### Flashing Instructions
+## 2. Flashing the Firmware  
+To install the firmware on your Wemos D1 Mini, use one of the following tools:  
 
-1. Connect the Wemos D1 Mini to your computer via USB
-2. Open your chosen flashing software
-3. Select the correct COM port
-4. Load the .bin file
-5. Start the flashing process
+### Option 1: ESPHome Flasher (Recommended)  
+1. [Download ESPHome Flasher](https://github.com/esphome/esphome-flasher/releases) for your OS.  
+2. Connect the Wemos D1 Mini to your PC via USB.  
+3. Open ESPHome Flasher and select the correct COM port.  
+4. Click **Browse**, select the `wemus_os.ino.bin` file, and click **Flash**.  
+5. Wait for the process to complete, then reboot the device.  
 
-## 🏗 Assembly
+### Option 2: ESP Flash Download Tool  
+1. [Download ESP Flash Download Tool](https://www.espressif.com/en/support/download/other-tools).  
+2. Open the tool and select your Wemos D1 Mini.  
+3. In the **Download Path Config**, select `wemus_os.ino.bin` and set the address to `0x00000`.  
+4. Choose the correct COM port and baud rate (e.g., 115200).  
+5. Click **Start** and wait for the flashing process to finish.  
 
-| **Display OLED** | **Wemos D1 Mini**   |
-|-----------------|--------------------|
-| **SDA** | D2 |
-| **SCL** | D1 |
-| **VCC** | 5V |
-| **GND** | GND |
+## 3. Troubleshooting  
+- If the flash process fails, try another USB cable or port.  
+- Make sure the correct drivers for CH340/CP210x are installed.  
+- If using ESP Flash Download Tool, ensure the baud rate is set correctly.
 
-| **Button** | **Wemos D1 Mini**   |
-|-----------------|--------------------|
-| **BUTTON1** | D8 |
-| **BUTTON2** | D3 |
-| **RST** | D0 |
+
+## 🏗 Connections
+
+- **VCC** → 5V
+- **GND** → GND
+- **SDA** → D2
+- **SCL** → D1
+- **RST** → D0
+- **BUTTON1** → D8
+- **BUTTON2** → D3
+
+### ⚠️ **Important:** Most SSD1306 displays support both **3.3V and 5V**, but some models are **3.3V only**. If unsure, try **3.3V first**. If the display doesn’t turn on, use **5V** instead.
 
 
 ### Assembly Tips
@@ -131,7 +148,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## 📞 Support
 
 - Open an [Issue](https://github.com/Junior37534/wemus/issues)
-- Join our [Discord](https://discord.gg/seu-servidor)
 - Send an email to [wemus.dev@gmail.com]
 
 ---
