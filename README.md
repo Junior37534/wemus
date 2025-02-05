@@ -86,24 +86,60 @@ Download the latest firmware:
 ## 2. Flashing the Firmware  
 To install the firmware on your Wemos D1 Mini, use one of the following tools:  
 
-### Option 1: ESPHome Flasher (Recommended)  
-1. [Download ESPHome Flasher](https://github.com/esphome/esphome-flasher/releases) for your OS.  
-2. Connect the Wemos D1 Mini to your PC via USB.  
-3. Open ESPHome Flasher and select the correct COM port.  
-4. Click **Browse**, select the `wemus_os.ino.bin` file, and click **Flash**.  
-5. Wait for the process to complete, then reboot the device.  
+### 1️⃣ Option 1: ESPHome Web Flashing (Recommended)
 
-### Option 2: ESP Flash Download Tool  
-1. [Download ESP Flash Download Tool](https://www.espressif.com/en/support/download/other-tools).  
-2. Open the tool and select your Wemos D1 Mini.  
-3. In the **Download Path Config**, select `wemus_os.ino.bin` and set the address to `0x00000`.  
-4. Choose the correct COM port and baud rate (e.g., 115200).  
-5. Click **Start** and wait for the flashing process to finish.  
+1. Plug the Wemos D1 Mini into your PC via USB.
 
-## 3. Troubleshooting  
-- If the flash process fails, try another USB cable or port.  
-- Make sure the correct drivers for CH340/CP210x are installed.  
-- If using ESP Flash Download Tool, ensure the baud rate is set correctly.
+2. Go to [https://web.esphome.io/](https://web.esphome.io/) and click **Connect**.
+
+3. Select the correct COM port that your Wemos D1 Mini is connected to.
+
+4. Click **Install**, browse for the `wemus_os.ino.bin` file on your computer, and then click **Flash**.
+
+5. The flashing process will take a moment. Once finished, the device will reboot.
+
+### 2️⃣ Option 2: ESP Flash Download Tool  
+1. Install [Python](https://www.python.org/downloads/) and esptool if you haven't already:
+   ```bash
+   pip install esptool
+   ```
+2. Connect your Wemos D1 Mini and identify the COM port:
+   - Windows: Check Device Manager under "Ports (COM & LPT)"
+   - Linux: Run `ls /dev/tty*` (usually appears as `/dev/ttyUSB0`)
+   - macOS: Run `ls /dev/cu.*` (usually appears as `/dev/cu.usbserial-*`)
+
+3. Flash the firmware using esptool:
+   ```bash
+   # Windows
+   esptool.py --port COM3 --baud 115200 write_flash 0x0 wemus_os.ino.bin
+
+   # Linux/macOS
+   esptool.py --port /dev/ttyUSB0 --baud 115200 write_flash 0x0 wemus_os.ino.bin
+   ```
+
+4. Common esptool commands:
+   ```bash
+   # Erase flash memory
+   esptool.py --port COM3 erase_flash
+
+   # Verify flash content
+   esptool.py --port COM3 verify_flash 0x0 wemus_os.ino.bin
+
+   # Read flash info
+   esptool.py --port COM3 flash_id
+   ```
+
+**Note:** Replace `COM3` or `/dev/ttyUSB0` with your actual device port.
+
+### Troubleshooting
+- If you get permission errors on Linux/macOS:
+  ```bash
+  sudo chmod 666 /dev/ttyUSB0
+  ```
+- If the device isn't recognized:
+  1. Install/reinstall CH340 drivers
+  2. Try a different USB cable
+  3. Press and hold FLASH button while connecting the device
 
 
 ## 🏗 Connections
