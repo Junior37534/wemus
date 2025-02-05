@@ -2,7 +2,7 @@
 
 ![Wemus Pro](https://media.discordapp.net/attachments/1334952524570038284/1336460345623056466/IMG_3775.jpeg?ex=67a3e330&is=67a291b0&hm=7e5159a1bfc85dc614bba14bc8388ac06f84e598edea4b49344fa590f63c7048&=&format=webp&width=895&height=671)
 
-Wemus Pro is a DIY (Do It Yourself) project that uses a 128x64 OLED display with a Wemos D1 Mini, creating a versatile and customizable interface for various projects.
+Wemus Pro is a DIY project for a minimalist and modern little clock, designed to be simple and smart. It displays the time and weather information.
 
 ## 📋 Table of Contents
 
@@ -10,10 +10,8 @@ Wemus Pro is a DIY (Do It Yourself) project that uses a 128x64 OLED display with
 - [Requirements](#requirements)
 - [Required Hardware](#required-hardware)
 - [Assembly](#assembly)
-- [Firmware Installation](#firmware-installation)
 - [Case](#case)
 - [FAQ](#faq)
-- [Troubleshooting](#troubleshooting)
 - [License](#license)
 
 ## ✨ Features
@@ -90,17 +88,19 @@ Wemus Pro is a DIY (Do It Yourself) project that uses a 128x64 OLED display with
 
 ## 🏗 Assembly
 
-### Display Connections
-
 | **Display OLED** | **Wemos D1 Mini**   |
 |-----------------|--------------------|
-| **RST**         | D0 (GPIO16)        |
-| **BUTTON1**     | D8 (GPIO15)        |
-| **BUTTON2**     | D3 (GPIO0)         |
-| **SDA**         | D2 (GPIO4) (I2C)   |
-| **SCL**         | D1 (GPIO5) (I2C)   |
-| **VCC**         | 5V                 |
-| **GND**         | GND                |
+| **SDA** | D2 |
+| **SCL** | D1 |
+| **VCC** | 5V |
+| **GND** | GND |
+
+| **Button** | **Wemos D1 Mini**   |
+|-----------------|--------------------|
+| **BUTTON1** | D8 |
+| **BUTTON2** | D3 |
+| **RST** | D0 |
+
 
 ### Assembly Tips
 
@@ -113,20 +113,10 @@ Wemus Pro is a DIY (Do It Yourself) project that uses a 128x64 OLED display with
 
 The case is designed to be laser cut in 3mm material (acrylic or MDF).
 
-### Cutting Files
-
-- [soon](/files/case_tampa.svg) - Top cover
-
-### Cutting Tips
-
-- Check dimensions before cutting
-- Adjust laser power according to material
-- We recommend testing on a small piece first
-
 ## ❓ FAQ
 
 ### The display doesn't turn on, what should I do?
-Check the connections and make sure you're using the correct voltage (3.3V).
+Check the connections and make sure you're using the correct voltage.
 
 ### Can I use a different OLED display?
 Yes, as long as it's I2C compatible and has 128x64 resolution.
@@ -134,31 +124,14 @@ Yes, as long as it's I2C compatible and has 128x64 resolution.
 ### Can the case be 3D printed?
 Currently we only provide laser cutting files, but you can create your own 3D version.
 
-### How long does assembly take?
-With all parts in hand, about 30-60 minutes.
-
-## 🔧 Troubleshooting
-
-### Display shows strange characters
-- Check if I2C connections are correct
-- Try reflashing the firmware
-- Confirm the voltage is stable
-
-### Can't flash the firmware
-- Check if USB driver is installed
-- Try a different USB cable
-- Press the reset button during the process
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## 📞 Support
 
-- Open an [Issue](https://github.com/seu-usuario/wemus-pro/issues)
+- Open an [Issue](https://github.com/Junior37534/wemus/issues)
 - Join our [Discord](https://discord.gg/seu-servidor)
-- Send an email to [seu-email@dominio.com]
+- Send an email to [wemus.dev@gmail.com]
 
 ---
-
-Made with ❤️ by the Brazilian maker community
