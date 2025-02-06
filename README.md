@@ -4,7 +4,7 @@
 
 Wemus Pro is a DIY project for a minimalist and modern little clock, designed to be simple and smart. It displays the time and weather information.
 
-## 📋 Table of Contents
+# 📋 Table of Contents
 
 - [Features](#features)
 - [Requirements](#requirements)
@@ -14,7 +14,7 @@ Wemus Pro is a DIY project for a minimalist and modern little clock, designed to
 - [FAQ](#faq)
 - [License](#license)
 
-## ✨ Features
+# ✨ Features
 
 - High contrast 128x64 OLED display
 - Based on Wemos D1 Mini (ESP8266)
@@ -23,7 +23,7 @@ Wemus Pro is a DIY project for a minimalist and modern little clock, designed to
 - Low power consumption
 - Wi-Fi connectivity
 
-## 📝 Requirements  
+# 📝 Requirements  
 
 To assemble and use **Wemus Pro**, you’ll need:  
 
@@ -33,7 +33,7 @@ To assemble and use **Wemus Pro**, you’ll need:
 - A **soldering iron and solder** (basic soldering required)  
 - A **basic understanding of electronics** (flashing firmware, soldering, and assembly)  
 
-## 🛠 Required Hardware
+# 🛠 Required Hardware
 
 <table>
   <tr>
@@ -115,7 +115,7 @@ To assemble and use **Wemus Pro**, you’ll need:
 
 **Note:** Replace `COM3` or `/dev/ttyUSB0` with your actual device port.
 
-### Troubleshooting
+## Troubleshooting
 - If you get permission errors on Linux/macOS:
   ```bash
   sudo chmod 666 /dev/ttyUSB0
@@ -126,7 +126,7 @@ To assemble and use **Wemus Pro**, you’ll need:
   3. Press and hold FLASH button while connecting the device
 
 
-## 🏗 Connections
+# 🏗 Connections
 
 - **VCC** → 5V
 - **GND** → GND
@@ -139,18 +139,104 @@ To assemble and use **Wemus Pro**, you’ll need:
 ### ⚠️ **Important:** Most SSD1306 displays support both **3.3V and 5V**, but some models are **3.3V only**. If unsure, try **3.3V first**. If the display doesn’t turn on, use **5V** instead.
 
 
-### Assembly Tips
+# 🔧 Initial Setup
 
-- Check connection polarity before soldering
-- Use different colored wires for easier identification
-- Make connections with the device powered off
-- Test all connections before assembling the case
+<img src="https://media.discordapp.net/attachments/1337152366612582494/1337152456165163038/IMG_6382.jpg?ex=67a667c4&is=67a51644&hm=f38cc0aa6d3cf84623133279a7e0d3a71691d10a2fe3114f5cd553328f922703&=&format=webp&width=894&height=671" 
+  alt="Wemus" width="500" />
+
+### First Boot Configuration
+
+After flashing the firmware and powering on your Wemus Pro for the first time, follow these steps to complete the initial setup:
+
+1. **Connect to Wemus Pro Wi-Fi**
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://media.discordapp.net/attachments/1337152366612582494/1337153819103989900/Screenshot_1.png?ex=67a66909&is=67a51789&hm=cba6271f0ea2a4d3c94bd19d56d66b07d16cafd28d05450c52648b135cb8d529&=&format=webp&quality=lossless" width="400" alt="Finding WemusPro WiFi"/><br>
+      <b>Look for "WemusPro" in your Wi-Fi networks</b><br>
+    </td>
+    <td align="center">
+      <img src="https://media.discordapp.net/attachments/1334952524570038284/1337156776109539379/Screenshot_2.png?ex=67a66bca&is=67a51a4a&hm=00e90972d63ce6a0e7f17367447f25faed0d6b4b9424a9456ce924da41e4572c&=&format=webp&quality=lossless&width=696&height=671" width="400" alt="Configuration Page"/><br>
+      <b>Open the IP address in your browser</b><br>
+    </td>
+  </tr>
+</table>
+
+2. **Access Configuration Page**
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="/images/setup/display-ip.jpg" width="400" alt="IP Address on Display"/><br>
+      <b>Check the IP address on the OLED display</b><br>
+      Usually shows as "192.168.4.1"
+    </td>
+    <td align="center">
+      <img src="/images/setup/config-page.jpg" width="400" alt="Configuration Page"/><br>
+      <b>Open the IP address in your browser</b><br>
+      Enter the IP shown on the display
+    </td>
+  </tr>
+</table>
+
+3. **Configure Settings**
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="/images/setup/config-form.jpg" width="300" alt="Configuration Form"/><br>
+      <b>Fill in the configuration form:</b>
+      <ul align="left">
+        <li>WiFi Network Name</li>
+        <li>WiFi Password</li>
+        <li>Device Name (optional)</li>
+        <li>Timezone</li>
+      </ul>
+    </td>
+    <td align="center">
+      <img src="/images/setup/config-save.jpg" width="300" alt="Saving Configuration"/><br>
+      <b>Click "Save Configuration"</b><br>
+      The device will save your settings
+    </td>
+  </tr>
+</table>
+
+4. **Initialization Process**
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="/images/setup/restart-1.jpg" width="300" alt="First Restart"/><br>
+      <b>First Restart</b><br>
+      Connects to your WiFi network
+    </td>
+    <td align="center">
+      <img src="/images/setup/restart-2.jpg" width="300" alt="Second Restart"/><br>
+      <b>Second Restart</b><br>
+      Gets geolocation and weather data
+    </td>
+  </tr>
+</table>
+
+### Important Notes
+
+- During the first boot, Wemus Pro creates its own WiFi network called "WemusPro"
+- The configuration page is only available during initial setup
+- The device will restart twice:
+  1. First restart: Applies network settings
+  2. Second restart: Configures geolocation and weather services
+- After setup completion, the display will show the main interface
+- If you need to reset the configuration, press and hold the button for 10 seconds
+
+> **Tip**: Make sure you have your WiFi credentials ready before starting the setup process.
+
+> **Note**: The weather data initialization may take up to 1 minute after the second restart.
 
 ## 📦 Case
-
 The case is designed to be laser cut in 3mm material (acrylic or MDF).
 
-## ❓ FAQ
+# ❓ FAQ
 
 ### The display doesn't turn on, what should I do?
 Check the connections and make sure you're using the correct voltage.
@@ -168,6 +254,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## 📞 Support
 
 - Open an [Issue](https://github.com/Junior37534/wemus/issues)
-- Send an email to [wemus.dev@gmail.com]
+- Send an email to <a href="mailto:wemus.dev@gmail.com?subject=Help%20with%20Wemus" target="_blank" rel="noopener noreferrer"><span class="contact-link">wemus.dev@gmail.com</span></a>
 
 ---
