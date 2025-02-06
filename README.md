@@ -73,20 +73,13 @@ To assemble and use **Wemus Pro**, you’ll need:
   - **4x** for connecting the display  
   - **2x** for the button  
   - **1x** for connecting **D0 to RST** (required for sleep mode)  
-- **1x MDF board (HDF also works, untested with acrylic)**  
-- **Connection wires**  
-- **Case material** (Recommended: **3mm MDF or HDF**, acrylic not tested)  
+- **1x 3mm MDF board (HDF also works, untested with acrylic)**  
 
-## 📥 Firmware Installation
+# 📥 Firmware Installation
+1. Download the latest firmware: [wemus_os.ino.bin](https://github.com/Junior37534/wemus/blob/main/firmware/wemus_os.ino.bin)  
+2. To install the firmware on your Wemos D1 Mini, use one of the following tools:  
 
-## 1. Download the Firmware  
-Download the latest firmware:  
-[➡️ wemus_os.ino.bin](https://github.com/Junior37534/wemus/blob/main/firmware/wemus_os.ino.bin)  
-
-## 2. Flashing the Firmware  
-To install the firmware on your Wemos D1 Mini, use one of the following tools:  
-
-### 1️⃣ Option 1: ESPHome Web Flashing (Recommended)
+### 1️⃣ Option 1: ESPHome Web Flashing (Easier)
 
 1. Plug the Wemos D1 Mini into your PC via USB.
 
@@ -110,23 +103,14 @@ To install the firmware on your Wemos D1 Mini, use one of the following tools:
 
 3. Flash the firmware using esptool:
    ```bash
+   # Erase flash memory
+   esptool.py --port COM3 erase_flash
+   
    # Windows
    esptool.py --port COM3 --baud 115200 write_flash 0x0 wemus_os.ino.bin
 
    # Linux/macOS
    esptool.py --port /dev/ttyUSB0 --baud 115200 write_flash 0x0 wemus_os.ino.bin
-   ```
-
-4. Common esptool commands:
-   ```bash
-   # Erase flash memory
-   esptool.py --port COM3 erase_flash
-
-   # Verify flash content
-   esptool.py --port COM3 verify_flash 0x0 wemus_os.ino.bin
-
-   # Read flash info
-   esptool.py --port COM3 flash_id
    ```
 
 **Note:** Replace `COM3` or `/dev/ttyUSB0` with your actual device port.
