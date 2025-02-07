@@ -136,12 +136,20 @@ To assemble and use **Wemus Pro**, you’ll need:
 - **BUTTON1** → D8
 - **BUTTON2** → D3
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://media.discordapp.net/attachments/1337152366612582494/1337470199582167141/image.png?ex=67a78fb0&is=67a63e30&hm=acf0c72a3a9b6d0c6de3746fd6960458c04ea144e4d4438d82d191a9519650a4&=&format=webp&quality=lossless&width=369&height=350" width="400" alt="Connections"/>
+    </td>
+  </tr>
+</table>
+
 ### ⚠️ **Important:** Most SSD1306 displays support both **3.3V and 5V**, but some models are **3.3V only**. If unsure, try **3.3V first**. If the display doesn’t turn on, use **5V** instead.
 
 
 # 🔧 Initial Setup
 
-<img src="https://media.discordapp.net/attachments/1337152366612582494/1337152456165163038/IMG_6382.jpg?ex=67a667c4&is=67a51644&hm=f38cc0aa6d3cf84623133279a7e0d3a71691d10a2fe3114f5cd553328f922703&=&format=webp&width=894&height=671" 
+<img src="https://media.discordapp.net/attachments/1337152366612582494/1337469100926173286/IMG_6388.jpg?ex=67a78eaa&is=67a63d2a&hm=e0f9bd7c0cb05a36ca8a9b1c55415daf7bd90b73c9aae649a8f31675561ff95c&=&format=webp&width=894&height=671" 
   alt="Wemus" width="500" />
 
 ### First Boot Configuration
@@ -164,8 +172,7 @@ After flashing the firmware and powering on your Wemus Pro for the first time, f
 </table>
 
 After saving all the settings, the Wemus Pro will restart and attempt to connect to Wi-Fi. If successful, it will obtain its geolocation based on the IP address, then restart once more (this happens only once).
-<img src="https://cdn.discordapp.com/attachments/1337152366612582494/1337452622625636464/IMG_6384-ezgif.com-optimize.gif?ex=67a77f51&is=67a62dd1&hm=c75349ff904b36c57bab79720b27479f755d321c786785327b8c36fabf8912ef&" 
-  alt="Wemus" width="500" />
+![Wemus](assets/wemus.gif)
 
 *The flickering on the screen is caused by the camera's refresh rate and is not present in real life. In reality, the display remains steady.*
 
