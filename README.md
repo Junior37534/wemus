@@ -163,12 +163,16 @@ After flashing the firmware and powering on your Wemus Pro for the first time, f
   </tr>
 </table>
 
-2. **Access Configuration Page**
+After saving all the settings, the Wemus Pro will restart and attempt to connect to Wi-Fi. If successful, it will obtain its geolocation based on the IP address, then restart once more (this happens only once).
+<img src="https://cdn.discordapp.com/attachments/1337152366612582494/1337452622625636464/IMG_6384-ezgif.com-optimize.gif?ex=67a77f51&is=67a62dd1&hm=c75349ff904b36c57bab79720b27479f755d321c786785327b8c36fabf8912ef&" 
+  alt="Wemus" width="500" />
+
+*The flickering on the screen is caused by the camera's refresh rate and is not present in real life. In reality, the display remains steady.*
 
 <table>
   <tr>
     <td align="center">
-      <img src="/images/setup/display-ip.jpg" width="400" alt="IP Address on Display"/><br>
+      <img src="https://cdn.discordapp.com/attachments/1337152366612582494/1337452622625636464/IMG_6384-ezgif.com-optimize.gif?ex=67a77f51&is=67a62dd1&hm=c75349ff904b36c57bab79720b27479f755d321c786785327b8c36fabf8912ef&" width="400" alt="IP Address on Display"/><br>
       <b>Check the IP address on the OLED display</b><br>
       Usually shows as "192.168.4.1"
     </td>
