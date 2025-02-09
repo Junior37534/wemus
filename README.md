@@ -73,7 +73,10 @@ To assemble and use **Wemus Pro**, you’ll need:
   - **4x** for connecting the display  
   - **2x** for the button  
   - **1x** for connecting **D0 to RST** (required for sleep mode)  
-- **1x 3mm MDF board (HDF also works, untested with acrylic)**  
+- **1x 3mm MDF board (HDF also works, untested with acrylic)**
+  
+<img src="https://cdn.discordapp.com/attachments/1337152366612582494/1338176299038150756/IMG_6378.jpg?ex=67aa214b&is=67a8cfcb&hm=8256e2ad69ad55d8c570c756a6de585afa2860d0b9e9ea640053c0c3dd88300d&" 
+  alt="Wemus" width="500" />
 
 # 📥 Firmware Installation
 1. Download the latest firmware: [wemus_os.ino.bin](https://github.com/Junior37534/wemus/blob/main/firmware/wemus_os.ino.bin)  
@@ -171,81 +174,19 @@ After flashing the firmware and powering on your Wemus Pro for the first time, f
   </tr>
 </table>
 
-After saving all the settings, the Wemus Pro will restart and attempt to connect to Wi-Fi. If successful, it will obtain its geolocation based on the IP address, then restart once more (this happens only once).
-![Wemus](assets/wemus.gif)
+After saving all the settings, the Wemus Pro will restart and attempt to connect to Wi-Fi. If successful, it will determine its geolocation based on the IP address and then restart once more (this only happens once).
 
-*The flickering on the screen is caused by the camera's refresh rate and is not present in real life. In reality, the display remains steady.*
+![IMG_6384-ezgif com-optimize](https://github.com/user-attachments/assets/adbae029-389b-4207-90da-6325f5798908)
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://cdn.discordapp.com/attachments/1337152366612582494/1337452622625636464/IMG_6384-ezgif.com-optimize.gif?ex=67a77f51&is=67a62dd1&hm=c75349ff904b36c57bab79720b27479f755d321c786785327b8c36fabf8912ef&" width="400" alt="IP Address on Display"/><br>
-      <b>Check the IP address on the OLED display</b><br>
-      Usually shows as "192.168.4.1"
-    </td>
-    <td align="center">
-      <img src="/images/setup/config-page.jpg" width="400" alt="Configuration Page"/><br>
-      <b>Open the IP address in your browser</b><br>
-      Enter the IP shown on the display
-    </td>
-  </tr>
-</table>
+*The flickering on the screen is due to the camera's refresh rate and does not occur in real life.*
 
-3. **Configure Settings**
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="/images/setup/config-form.jpg" width="300" alt="Configuration Form"/><br>
-      <b>Fill in the configuration form:</b>
-      <ul align="left">
-        <li>WiFi Network Name</li>
-        <li>WiFi Password</li>
-        <li>Device Name (optional)</li>
-        <li>Timezone</li>
-      </ul>
-    </td>
-    <td align="center">
-      <img src="/images/setup/config-save.jpg" width="300" alt="Saving Configuration"/><br>
-      <b>Click "Save Configuration"</b><br>
-      The device will save your settings
-    </td>
-  </tr>
-</table>
-
-4. **Initialization Process**
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="/images/setup/restart-1.jpg" width="300" alt="First Restart"/><br>
-      <b>First Restart</b><br>
-      Connects to your WiFi network
-    </td>
-    <td align="center">
-      <img src="/images/setup/restart-2.jpg" width="300" alt="Second Restart"/><br>
-      <b>Second Restart</b><br>
-      Gets geolocation and weather data
-    </td>
-  </tr>
-</table>
-
-### Important Notes
-
-- During the first boot, Wemus Pro creates its own WiFi network called "WemusPro"
-- The configuration page is only available during initial setup
-- The device will restart twice:
-  1. First restart: Applies network settings
-  2. Second restart: Configures geolocation and weather services
-- After setup completion, the display will show the main interface
-- If you need to reset the configuration, press and hold the button for 10 seconds
-
-> **Tip**: Make sure you have your WiFi credentials ready before starting the setup process.
-
-> **Note**: The weather data initialization may take up to 1 minute after the second restart.
+Now you can customize your Wemus! 🎉
 
 ## 📦 Case
 The case is designed to be laser cut in 3mm material (acrylic or MDF).
+
+<img src="https://media.discordapp.net/attachments/1337152366612582494/1338176947028623451/IMG_6381.jpg?ex=67aa21e6&is=67a8d066&hm=ac47d1963757a66b2132b10f0447efcb19330b86f298115f5236c439c8557101&=&format=webp&width=800&height=671" 
+  alt="Wemus" width="500" />
 
 # ❓ FAQ
 
