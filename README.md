@@ -75,7 +75,7 @@ To assemble and use **Wemus Pro**, you’ll need:
   - **1x** for connecting **D0 to RST** (required for sleep mode)  
 - **1x 3mm MDF board (HDF also works, untested with acrylic)**
   
-<img src="https://cdn.discordapp.com/attachments/1337152366612582494/1338176299038150756/IMG_6378.jpg?ex=67aa214b&is=67a8cfcb&hm=8256e2ad69ad55d8c570c756a6de585afa2860d0b9e9ea640053c0c3dd88300d&" 
+<img src="https://media.discordapp.net/attachments/1337152366612582494/1338176299038150756/IMG_6378.jpg?ex=67c32dcb&is=67c1dc4b&hm=ab685dbed31978ad742f79b6cd7bb7cec2e38fac3a7d620a069977ecfc0bd359&=&format=webp&width=1188&height=684" 
   alt="Wemus" width="500" />
 
 # 📥 Firmware Installation
@@ -142,18 +142,12 @@ To assemble and use **Wemus Pro**, you’ll need:
 <table>
   <tr>
     <td align="center">
-      <img src="https://media.discordapp.net/attachments/1337152366612582494/1337470199582167141/image.png?ex=67a78fb0&is=67a63e30&hm=acf0c72a3a9b6d0c6de3746fd6960458c04ea144e4d4438d82d191a9519650a4&=&format=webp&quality=lossless&width=369&height=350" width="400" alt="Connections"/>
+      <img src="https://media.discordapp.net/attachments/1337152366612582494/1337470199582167141/image.png?ex=67c33f30&is=67c1edb0&hm=891cfdf783acbe252e678fe5574d2011c3966d9e6dccff7e43044f2e0452fafe&=&format=webp&quality=lossless&width=722&height=684" width="400" alt="Connections"/>
     </td>
   </tr>
 </table>
 
 ### ⚠️ **Important:** Most SSD1306 displays support both **3.3V and 5V**, but some models are **3.3V only**. If unsure, try **3.3V first**. If the display doesn’t turn on, use **5V** instead.
-
-
-# 🔧 Initial Setup
-
-<img src="https://media.discordapp.net/attachments/1337152366612582494/1337469100926173286/IMG_6388.jpg?ex=67a78eaa&is=67a63d2a&hm=e0f9bd7c0cb05a36ca8a9b1c55415daf7bd90b73c9aae649a8f31675561ff95c&=&format=webp&width=894&height=671" 
-  alt="Wemus" width="500" />
 
 ### First Boot Configuration
 
@@ -164,11 +158,11 @@ After flashing the firmware and powering on your Wemus Pro for the first time, f
 <table>
   <tr>
     <td align="center">
-      <img src="https://media.discordapp.net/attachments/1337152366612582494/1337153819103989900/Screenshot_1.png?ex=67a66909&is=67a51789&hm=cba6271f0ea2a4d3c94bd19d56d66b07d16cafd28d05450c52648b135cb8d529&=&format=webp&quality=lossless" width="400" alt="Finding WemusPro WiFi"/><br>
+      <img src="https://media.discordapp.net/attachments/1337152366612582494/1337153819103989900/Screenshot_1.png?ex=67c2c149&is=67c16fc9&hm=9c58098488fb36107f91f8486c8e2d0a4d8d1ff23b8048f8103b95a0cfdc0064&=&format=webp&quality=lossless" alt="Finding WemusPro WiFi"/><br>
       <b>Look for "WemusPro" in your Wi-Fi networks</b><br>
     </td>
     <td align="center">
-      <img src="https://media.discordapp.net/attachments/1334952524570038284/1337156776109539379/Screenshot_2.png?ex=67a66bca&is=67a51a4a&hm=00e90972d63ce6a0e7f17367447f25faed0d6b4b9424a9456ce924da41e4572c&=&format=webp&quality=lossless&width=696&height=671" width="400" alt="Configuration Page"/><br>
+      <img src="https://media.discordapp.net/attachments/1337152366612582494/1345112583975342111/image.png?ex=67c35d37&is=67c20bb7&hm=e466523cb32f5e04a30f8a4c19800a6f826bc4a7dffa3c001d0d2962d8c3618d&=&format=webp&quality=lossless&width=447&height=684" width="400" alt="Configuration Page"/><br>
       <b>Open the IP address in your browser</b><br>
     </td>
   </tr>
@@ -185,23 +179,8 @@ Now you can customize your Wemus! 🎉
 ## 📦 Case
 The case is designed to be laser cut in 3mm material (acrylic or MDF).
 
-<img src="https://media.discordapp.net/attachments/1337152366612582494/1338176947028623451/IMG_6381.jpg?ex=67aa21e6&is=67a8d066&hm=ac47d1963757a66b2132b10f0447efcb19330b86f298115f5236c439c8557101&=&format=webp&width=800&height=671" 
+<img src="https://media.discordapp.net/attachments/1337152366612582494/1338176947028623451/IMG_6381.jpg?ex=67c32e66&is=67c1dce6&hm=275549435b168e0085b3078d247da9c703d500729bb9fb9d66fbddb049cbf237&=&format=webp&width=815&height=683" 
   alt="Wemus" width="500" />
-
-# ❓ FAQ
-
-### The display doesn't turn on, what should I do?
-Check the connections and make sure you're using the correct voltage.
-
-### Can I use a different OLED display?
-Yes, as long as it's I2C compatible and has 128x64 resolution.
-
-### Can the case be 3D printed?
-Currently we only provide laser cutting files, but you can create your own 3D version.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## 📞 Support
 
