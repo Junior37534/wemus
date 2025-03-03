@@ -175,12 +175,105 @@ After saving all the settings, the Wemus Pro will restart and attempt to connect
 *The flickering on the screen is due to the camera's refresh rate and does not occur in real life.*
 
 Now you can customize your Wemus! 🎉
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/8385427a-23d1-41a4-a68a-c9fc9bd945b8" width="210" alt="WemusModes"/><br>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/6c8e3338-e6b2-4850-bc2f-909adcdea43d" width="210" alt="WemusModes"/><br>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/298f4dd3-f026-4502-9d59-c04f3339ac61" width="210" alt="WemusModes"/><br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/8c320c58-8861-49fe-a24e-cb9a65528f87" width="210" alt="WemusModes"/><br>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/eda274a7-3c8a-450f-a3c2-0079c6db6d9d" width="210" alt="WemusModes"/><br>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/bc68279a-185a-409b-b952-d240f939af19" width="210" alt="WemusModes"/><br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/6e9beeba-54cb-442b-9256-bd9f751bf55e" width="210" alt="WemusModes"/><br>
+    </td>
+    <br>
+    You can change the mode by pressing the button and access the configuration by holding it
+  </tr>
+</table>
 
 ## 📦 Case
 The case is designed to be laser cut in 3mm material (acrylic or MDF).
 
-<img src="https://media.discordapp.net/attachments/1337152366612582494/1338176947028623451/IMG_6381.jpg?ex=67c32e66&is=67c1dce6&hm=275549435b168e0085b3078d247da9c703d500729bb9fb9d66fbddb049cbf237&=&format=webp&width=815&height=683" 
-  alt="Wemus" width="500" />
+<img src="https://media.discordapp.net/attachments/1337152366612582494/1338176947028623451/IMG_6381.jpg?ex=67c32e66&is=67c1dce6&hm=275549435b168e0085b3078d247da9c703d500729bb9fb9d66fbddb049cbf237&=&format=webp&width=815&height=683" alt="Wemus" width="500" />
+
+# Assembly
+
+### 1. Start by **carefully** placing both supports on the display, place close attention to not damage the flat cable
+<table>
+  <td align="center">
+    <img src="https://media.discordapp.net/attachments/1337152366612582494/1346129850322387006/image.png?ex=67c7109e&is=67c5bf1e&hm=d3abac7c5972bd6d86beae2dd36230067dd3ca63181766dcfd7e24d03134da28&=&format=webp&quality=lossless" width="300" alt="Wemus"/>
+  </td>
+</table>
+
+### 2. Now insert all four angled feet as shown below
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://media.discordapp.net/attachments/1337152366612582494/1346133739427725403/image.png?ex=67c7143d&is=67c5c2bd&hm=1fdc9f7e270f69944c6beb8ee51c8b2f50a46865419ae727aa7d33d93dff08cc&=&format=webp&quality=lossless" width="250" alt="Wemus"/>
+    </td>
+    <td>
+      Glue may be neccessery
+      <table>
+        <tr>
+          <td align="center">
+            <img src="https://media.discordapp.net/attachments/1337152366612582494/1346131541348323411/IMG_6539.jpg?ex=67c71231&is=67c5c0b1&hm=405deaad19019c2a280222509bdfec6e06d7b507eae39d1711dbf70d790bf8fd&=&format=webp&width=912&height=684" width="310" alt="Wemus"/><br>
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <img src="https://media.discordapp.net/attachments/1337152366612582494/1346134529865289931/image.png?ex=67c714f9&is=67c5c379&hm=5f4d9d7c73689ab8e86d222051219b07c5b2871d4cdc57ba33fb6cc8f2d4d22d&=&format=webp&quality=lossless&width=550&height=214" width="310" alt="Wemus"/><br>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+#### ⚠️ Make sure to insert them in the correct side and orientation
+
+### 3. Insert the buttom to the rear side and glue it to the base
+I Recommend glueing it with the side part attached to prevent it not being aligned
+Then glue the little piece from the USB hole to lock the Wemus firm in place
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://media.discordapp.net/attachments/1337152366612582494/1346136906617851935/IMG_6542.jpg?ex=67c71730&is=67c5c5b0&hm=ffc04c8c3f97ecf526251a40fbcd9f3669f40dffea4fd947a984ed16b9948ee1&=&format=webp&width=912&height=684" width="400" alt="Wemus"/><br>
+    </td>
+    <td align="center">
+      <img src="https://media.discordapp.net/attachments/1337152366612582494/1346144927003840552/image.png?ex=67c71ea8&is=67c5cd28&hm=1c8426890d2e62939b705d23f3fe0b5025543b8353685f456abe7e83e762f3ea&=&format=webp&quality=lossless" width="400" alt="Wemus"/><br>
+    </td>
+  </tr>
+</table>
+
+### 4. Place the screen and press the front part
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://media.discordapp.net/attachments/1337152366612582494/1346149608857927774/image.png?ex=67c72305&is=67c5d185&hm=920cb3d0a71632800353a7bcb3da5c8f8c1177fadbe8eb05802dee2a548aac5a&=&format=webp&quality=lossless" width="450" alt="Wemus"/><br>
+    </td>
+    <td align="center">
+      <img src="https://media.discordapp.net/attachments/1337152366612582494/1346148425539915906/IMG_6551.jpg?ex=67c721ea&is=67c5d06a&hm=c0ba9b6fc16145c89596157eb979508010114eacc0359963b2d894fad75594a8&=&format=webp&width=513&height=684" width="300" alt="Wemus"/><br>
+    </td>
+  </tr>
+</table>
+The display should be aligned to the frame
 
 ## 📞 Support
 
