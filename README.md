@@ -6,22 +6,26 @@ Wemus Pro is a DIY project for a minimalist and modern little clock, designed to
 
 # 📋 Table of Contents
 
-- [Features](#features)
-- [Requirements](#requirements)
-- [Required Hardware](#required-hardware)
+- [Features](#-features)
+- [Requirements](#-requirements)
+- [Required Hardware](#-required-hardware)
+- [Firmware Installation](#-firmware-installation)
+- [Connection](#-connections)
+- [Case](#-case)
 - [Assembly](#assembly)
-- [Case](#case)
-- [FAQ](#faq)
+- [Debug](#debug)
 - [License](#license)
 
 # ✨ Features
 
 - High contrast 128x64 OLED display
-- Based on Wemos D1 Mini (ESP8266)
+- Clean and easy-to-use interface
 - Customizable laser-cut case
 - Intuitive interface
 - Low power consumption
 - Wi-Fi connectivity
+- Modern design
+- Press and hold to enter the menu
 
 # 📝 Requirements  
 
@@ -304,9 +308,28 @@ Enjoy!
 
 <img src="https://github.com/user-attachments/assets/040d95b5-0250-4a85-bdd3-ba6f97f3dc2a" width="600" alt="WemusModes"/>
 
+## Debug
+*These are commands that you can run in the terminal on your Wemos D1 Mini clock.*  
+
+- **`ultrareset`** → Erases all saved data.  
+- **`sleep`** → Enters deep sleep for 1 minute.  
+- **`wifi`** → Displays the current Wi-Fi status (on or off).  
+- **`wifion`** → Turns Wi-Fi on.  
+- **`wifioff`** → Turns Wi-Fi off.  
+- **`-HH:MM-HH:MM`** → Sets deep sleep. The first time is when it sleeps, the second is when it wakes up.  
+- **`logATNF`** → Sends logs to the serial monitor if sleep mode is enabled.  
+- **`restart`** → Restarts the device.  
+- **`check`** → Checks the **WemosOS** version.  
+- **`printAll`** → Displays all saved information.  
+- **`mode`** → Changes the operating mode.  
+- **`font`** → Changes the font style.  
+- **`theme`** → Toggles between light and dark mode.  
+- **`light`** → Turns the blue LED on or off.  
+
 ## 📞 Support
 
 - Open an [Issue](https://github.com/Junior37534/wemus/issues)
+- [Learn more about the project](https://wemus-site.web.app/wemus-pro)
 - Send an email to <a href="mailto:wemus.dev@gmail.com?subject=Help%20with%20Wemus" target="_blank" rel="noopener noreferrer"><span class="contact-link">wemus.dev@gmail.com</span></a>
 
 ---
