@@ -262,7 +262,7 @@ Then, glue the small piece from the USB hole to lock the Wemus firmly in place.
   </tr>  
 </table>  
 
-### 4. Place the screen and press the front part.  
+### Place the screen and press the front part.
 <table>  
   <tr>  
     <td align="center">  
@@ -273,9 +273,36 @@ Then, glue the small piece from the USB hole to lock the Wemus firmly in place.
     </td>  
   </tr>  
 </table>  
-The display should be aligned with the frame.  
+The display should be aligned with the frame. Then, you can glue the front part.
 
+### 5. Glue the display holders to lock it in place then wire everything
+<table>  
+  <tr>  
+    <td align="center">  
+      <img src="https://media.discordapp.net/attachments/1337152366612582494/1346161594765148320/IMG_6552.jpg?ex=67c72e2e&is=67c5dcae&hm=433e71e284ab8508de8639069785a9fb1dc1ec0808328cd3d8298d41c7a7d72e&=&format=webp&width=912&height=684" width="450" alt="Wemus"/> 
+    </td>  
+    <td align="center">  
+      <img src="https://media.discordapp.net/attachments/1337152366612582494/1346170269382873190/IMG_6557.jpg?ex=67c73642&is=67c5e4c2&hm=48366c1dba334e164b40a70ca8879625d4e7d1370657d4384cf7fa1080278f85&=&format=webp&width=912&height=684" width="410" alt="Wemus"/> 
+    </td>  
+  </tr>  
+</table>  
+I recommend using at least one of the tools shown below to make it easier to reset the Wemos.
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://media.discordapp.net/attachments/1337152366612582494/1346167758903181435/IMG_6554.jpg?ex=67c733ec&is=67c5e26c&hm=40036c42bf4cc170e756e498af8bcea4bb8330fcd4ed5edd130dc90f95e87196&=&format=webp&width=912&height=684" width="310" alt="WemusModes"/>
+    </td>
+    <td align="center">
+      <img src="https://media.discordapp.net/attachments/1337152366612582494/1346168828647706787/image.png?ex=67c734eb&is=67c5e36b&hm=5c113140172c0972409df08bcbfb3f6fcf28a341de83650ab91c47762779d77c&=&format=webp&quality=lossless" width="260" alt="WemusModes"/>
+    </td>
+  </tr>
+</table>
 
+### And finally, test it.
+If you want, you can glue the other side, but I highly recommend **not** gluing the top part, the clutch power should be enough to hold it.
+Enjoy!
+
+<img src="https://github.com/user-attachments/assets/040d95b5-0250-4a85-bdd3-ba6f97f3dc2a" width="600" alt="WemusModes"/>
 
 ## 📞 Support
 
