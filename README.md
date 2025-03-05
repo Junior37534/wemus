@@ -1,8 +1,11 @@
 # Wemus Pro
 
-![Wemus Pro](https://media.discordapp.net/attachments/1334952524570038284/1336460345623056466/IMG_3775.jpeg?ex=67a3e330&is=67a291b0&hm=7e5159a1bfc85dc614bba14bc8388ac06f84e598edea4b49344fa590f63c7048&=&format=webp&width=895&height=671)
-
 Wemus Pro is a DIY project for a minimalist and modern little clock, designed to be simple and smart. It displays the time and weather information.
+
+<img src="https://github.com/user-attachments/assets/040d95b5-0250-4a85-bdd3-ba6f97f3dc2a" width="600" alt="Wemus"/>
+<br>
+<a href='https://ko-fi.com/B0B41BFS95' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 
 # 📋 Table of Contents
 
@@ -294,10 +297,10 @@ I recommend using at least one of the tools shown below to make it easier to res
 <table>
   <tr>
     <td align="center">
-      <img src="https://media.discordapp.net/attachments/1337152366612582494/1346167758903181435/IMG_6554.jpg?ex=67c733ec&is=67c5e26c&hm=40036c42bf4cc170e756e498af8bcea4bb8330fcd4ed5edd130dc90f95e87196&=&format=webp&width=912&height=684" width="310" alt="WemusModes"/>
+      <img src="https://media.discordapp.net/attachments/1337152366612582494/1346167758903181435/IMG_6554.jpg?ex=67c733ec&is=67c5e26c&hm=40036c42bf4cc170e756e498af8bcea4bb8330fcd4ed5edd130dc90f95e87196&=&format=webp&width=912&height=684" width="310" alt="Wemus"/>
     </td>
     <td align="center">
-      <img src="https://media.discordapp.net/attachments/1337152366612582494/1346168828647706787/image.png?ex=67c734eb&is=67c5e36b&hm=5c113140172c0972409df08bcbfb3f6fcf28a341de83650ab91c47762779d77c&=&format=webp&quality=lossless" width="260" alt="WemusModes"/>
+      <img src="https://media.discordapp.net/attachments/1337152366612582494/1346168828647706787/image.png?ex=67c734eb&is=67c5e36b&hm=5c113140172c0972409df08bcbfb3f6fcf28a341de83650ab91c47762779d77c&=&format=webp&quality=lossless" width="260" alt="Wemus"/>
     </td>
   </tr>
 </table>
@@ -306,7 +309,7 @@ I recommend using at least one of the tools shown below to make it easier to res
 If you want, you can glue the other side, but I highly recommend **not** gluing the top part, the clutch power should be enough to hold it.
 Enjoy!
 
-<img src="https://github.com/user-attachments/assets/040d95b5-0250-4a85-bdd3-ba6f97f3dc2a" width="600" alt="WemusModes"/>
+<img src="https://github.com/user-attachments/assets/040d95b5-0250-4a85-bdd3-ba6f97f3dc2a" width="600" alt="Wemus"/>
 
 ## Debug
 *These are commands that you can run in the terminal on your Wemos D1 Mini clock.*  
