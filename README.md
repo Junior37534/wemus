@@ -2,10 +2,15 @@
 
 Wemus Pro is a DIY project for a minimalist and modern little clock, designed to be simple and smart. It displays the time and weather information.
 
-<img src="https://github.com/user-attachments/assets/040d95b5-0250-4a85-bdd3-ba6f97f3dc2a" width="600" alt="Wemus"/>
+<img src="https://github.com/user-attachments/assets/196e173d-d036-47e8-8ece-8655b3e88b8d" width="600" alt="Wemus"/>
 <br>
 <a href='https://ko-fi.com/B0B41BFS95' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
+---
+
+The **Wemus Pro** is a sleek, minimalist clock designed to be simple, functional, and easy to use. With a high-contrast 128x64 OLED display, it offers multiple beautiful clock modes that are both modern and clean. You can customize it to turn off automatically and enter deep sleep to save power. The intuitive button on the back lets you switch modes and access a menu with useful features like system info, Wi-Fi status, and even software updates. Every detail was carefully crafted to create a user-friendly experience, making it feel like a commercial product, both in design and performance.
+
+---
 
 # 📋 Table of Contents
 
@@ -21,14 +26,13 @@ Wemus Pro is a DIY project for a minimalist and modern little clock, designed to
 
 # ✨ Features
 
-- High contrast 128x64 OLED display
-- Clean and easy-to-use interface
-- Customizable laser-cut case
-- Intuitive interface
-- Low power consumption
-- Wi-Fi connectivity
-- Modern design
-- Press and hold to enter the menu
+- 128x64 OLED display: Crisp, high-contrast visuals.
+- Clean, modern interface: Easy to navigate, designed for beauty and simplicity.
+- Multiple clock modes: Beautiful, minimalist options to show the time.
+- Deep sleep & auto-off: Save power by setting auto turn-off times.
+- Simple button/menu: One button to switch modes and access settings like system info, Wi-Fi status, and more.
+- Screensaver: A power-saving display mode.
+- Crafted for quality: A sleek, user-friendly design, blending modern aesthetics with practicality.
 
 # 📝 Requirements  
 
